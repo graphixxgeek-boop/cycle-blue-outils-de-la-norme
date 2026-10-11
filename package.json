@@ -1,0 +1,20 @@
+{
+  "name": "outils-de-la-norme-de-depot",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Mesure les règles 1 et 20 de la norme de dépôt de Cycle Blue (seuils de taille et de complexité, jeu recommandé d'eslint) sur n'importe quel dossier.",
+  "license": "UNLICENSED",
+  "scripts": {
+    "seuils": "node seuils.mjs"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "devDependencies": {
+    "@eslint/js": "10.0.1",
+    "eslint": "10.1.0",
+    "eslint-plugin-sonarjs": "4.2.2",
+    "globals": "16.4.0"
+  }
+}
